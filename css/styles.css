@@ -22,8 +22,6 @@ body {
   font-family: var(--primary-font);
   color: var(--primary-txt-cl);
   letter-spacing: 0.02em;
-  font-size: 16px;
-  line-height: 1.5;
 }
 .list {
   list-style: none;
@@ -47,6 +45,7 @@ body {
 .section-title {
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
   text-transform: capitalize;
 
   color: var(--secondary-txt-cl);
@@ -57,6 +56,9 @@ body {
   line-height: 1.2;
 
   color: var(--secondary-txt-cl);
+}
+.description {
+  line-height: 1.5;
 }
 .list-item {
   background-color: var(--primary-bg-cl);
@@ -89,10 +91,8 @@ body {
   color: var(--link-hover-txt-cl);
 }
 .header-link {
-  font-family: inherit;
   font-weight: 500;
-  font-size: inherit;
-  line-height: inherit;
+  line-height: 1.5;
 
   color: var(--secondary-txt-cl);
 }
@@ -102,10 +102,8 @@ body {
 }
 .header-mail,
 .header-phone-number {
-  font-family: inherit;
   font-style: normal;
-  font-size: inherit;
-  line-height: inherit;
+  line-height: 1.5;
 
   color: var(--primary-txt-cl);
 }
@@ -124,14 +122,15 @@ body {
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
 
   color: var(--hero-title-txt-cl);
 }
 .hero-btn {
   font-family: inherit;
   font-weight: 500;
-  font-size: inherit;
-  line-height: inherit;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
 
   color: var(--dark-theme-btn-txt-cl);
@@ -157,14 +156,15 @@ body {
   color: var(--footer-logo-accent-txt-cl);
 }
 .footer-text {
+  line-height: 1.5;
   color: var(--light-accent-txt-cl);
 }
-/* PORTFOLIO */
+/* ----------------------PORTFOLIO----------------------- */
 .filter-btn {
   font-family: inherit;
   font-weight: 500;
-  font-size: inherit;
-  line-height: inherit;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
 
   border: 1px solid var(--light-accent-txt-cl);
