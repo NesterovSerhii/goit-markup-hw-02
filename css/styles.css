@@ -132,6 +132,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 
   color: var(--dark-theme-btn-txt-cl);
   background-color: var(--hero-btn-bg-cl);
@@ -139,7 +140,6 @@ body {
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--active-btn-bg-cl);
-  cursor: pointer;
 }
 /* ---------------------SECTIONS---------------------- */
 .section.team {
@@ -166,6 +166,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 
   border: 1px solid var(--light-accent-txt-cl);
   border-radius: 4px;
@@ -176,5 +177,4 @@ body {
 .filter-btn:focus {
   color: var(--dark-theme-btn-txt-cl);
   background-color: var(--active-btn-bg-cl);
-  cursor: pointer;
 }
